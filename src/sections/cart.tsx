@@ -10,12 +10,12 @@ import {
     Divider,
     useColorMode,
     useColorModeValue
-} from "@chakra-ui/react";
+} from "@chakra-ui/react"
 
 const Cart = () => {
-    const { toggleColorMode } = useColorMode();
-    const bgColor = useColorModeValue('gray.50', 'whiteAlpha.50');
-    const secondaryTextColor = useColorModeValue('gray.600', 'gray.400');
+    const { toggleColorMode } = useColorMode()
+    const bgColor = useColorModeValue('gray.50', 'whiteAlpha.50')
+    const secondaryTextColor = useColorModeValue('gray.600', 'gray.400')
 
     return (
         <VStack

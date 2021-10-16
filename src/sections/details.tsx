@@ -11,7 +11,7 @@ import {
     Checkbox,
     Button,
     useBreakpointValue,
-} from "@chakra-ui/react";
+} from "@chakra-ui/react"
 
 const Details = () => {
     const colSpan = useBreakpointValue({ base: 2, md: 1 })
@@ -64,7 +64,7 @@ const Details = () => {
                     </Checkbox>
                 </GridItem>
                 <GridItem colSpan={2}>
-                    <Button size="lg" w="full">
+                    <Button colorScheme="brand" size="lg" w="full">
                         Place order
                     </Button>
                 </GridItem>
