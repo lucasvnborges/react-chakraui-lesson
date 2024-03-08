@@ -14,17 +14,18 @@ import {
 
 const Cart = () => {
   const { toggleColorMode } = useColorMode();
+  
   const bgColor = useColorModeValue("gray.50", "whiteAlpha.50");
   const secondaryTextColor = useColorModeValue("gray.600", "gray.400");
 
   return (
     <VStack
+      p={10}
       w="full"
       h="full"
-      p={10}
       spacing={10}
-      alignItems="flex-start"
       bg={bgColor}
+      alignItems="flex-start"
     >
       <VStack alignItems="flex-start" spacing={3}>
         <Heading size="2xl">Your cart</Heading>
